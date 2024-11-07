@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li:first-child {
+        color: red;
+      }
+      li:last-child {
+        color: blue;
+      }
+      p:nth-child(2n) {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>아이브 (IVE)</p>
+    <!-- 부모인 body 태그의 첫 번째 자식 요소가 p 태그이므로 스타일 적용 -->
+    <div>
+      <p>뉴진스 (NewJeans)</p>
+      <!-- 부모인 div 태그의 첫 번째 자식 요소가 p 태그이므로 스타일 적용 -->
+      <p>르세라핌 (LE SSERAFIM)</p>
+      <p>레드벨벳</p>
+    </div>
+    <div>
+      <p>블랙핑크 (BLACKPINK)</p>
+      <!-- 부모인 div 태그의 첫 번째 자식 요소가 p 태그이므로 스타일 적용 -->
+      <p>트와이스 (TWICE)</p>
+      <p>있지</p>
+    </div>
+  </body>
+</html>
